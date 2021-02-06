@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### steps =>
+
+1.  Make types =>cakeTypes.js
+2.  Make actios =>cakeActions.js
+3.  Make reducers =>cakeReducer.js
+4.  make store =>store.js
+5.  add Provider to App.js and give store as a prop to the App Component
