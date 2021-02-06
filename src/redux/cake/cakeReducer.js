@@ -9,7 +9,7 @@ export default (state = initialState, action) => {
     case BUY_CAKES:
       return {
         ...state,
-        numOfCakes: state.numOfCakes - 1,
+        numOfCakes: state.numOfCakes - action.payload,
       };
 
     default:

@@ -123,3 +123,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         2.  define all action creators (eg. buyCake) in index.js file in redux folder => index.js
         3.  import action creators from index.js file in redux folder => HooksIceCreamComponent.js
         4.  useDispatch() => using to run action creators. this is equal to mapDispatchToProps function => HooksIceCreamComponent.js
+
+## Redux with payload in actions
+
+payload is using for send additional informations to the reducers, from action creator
+
+1.  Make types =>cakeTypes.js
+2.  Make actios with payload =>cakeActions.js
+3.  Make reducers with payload =>cakeReducer.js
+4.  make store =>store.js
+5.  add Provider to App.js and give store as a prop to the App Component
+
+6.  subscribe and dispatch the wanted methods
+
+    1.  useSelector() => this is equal to mapStateToProps function => HookBuyNoOfCakesComponent.js
+    2.  define all action creators (eg. buyCake) in index.js file in redux folder => index.js
+    3.  import action creators from index.js file in redux folder => HookBuyNoOfCakesComponent.js
+    4.  useDispatch() => using to run action creators. this is equal to mapDispatchToProps function => HookBuyNoOfCakesComponent.js
