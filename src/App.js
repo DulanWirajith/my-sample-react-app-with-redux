@@ -3,12 +3,13 @@ import "./App.css";
 import CakeComponent from "./components/cakeComponent";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import HooksCakeComponent from "./components/HooksCakeComponent";
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <CakeComponent></CakeComponent>
+        <HooksCakeComponent></HooksCakeComponent>
       </div>
     </Provider>
   );
