@@ -42,3 +42,12 @@ export const fetchUsers = () => {
       });
   };
 };
+
+// export const getItemsAction = () => dispatch => {
+//   axios.get('api/items').then(response => {
+//           dispatch({
+//               type: 'GET_ITEMS',
+//               payload: response.data
+//           })
+//   });
+// };
