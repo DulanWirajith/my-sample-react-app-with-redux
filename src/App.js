@@ -6,6 +6,7 @@ import store from "./redux/store";
 import HooksCakeComponent from "./components/HooksCakeComponent";
 import HooksIceCreamComponent from "./components/HooksIceCreamComponent";
 import HookBuyNoOfCakesComponent from "./components/HookBuyNoOfCakesComponent";
+import HookUsersComponent from "./components/HookUsersComponent";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <div className="App">
         {/* <HooksCakeComponent></HooksCakeComponent>
         <HooksIceCreamComponent></HooksIceCreamComponent> */}
-        <HookBuyNoOfCakesComponent></HookBuyNoOfCakesComponent>
+        {/* <HookBuyNoOfCakesComponent></HookBuyNoOfCakesComponent> */}
+        <HookUsersComponent></HookUsersComponent>
       </div>
     </Provider>
   );
